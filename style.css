@@ -2,10 +2,13 @@
   font-family:pot;
   src: url("Potra.ttf")
 }
-hr{
+hr.first{
   border-weight: 20px ;
   border-color: #000000;
-  box-shadow: 0 102px 106px 0 rgba(0,0,0, 0.781),0 200px 200px 0 rgba(10,10,10, 0.884);
+  box-shadow: 0 100px 140px 0 rgba(0,0,0, 0.581),0 200px 200px 0 rgba(10,10,10, 0.884);
+}
+hr.second{
+  border: 2px solid white;
 }
 
 
