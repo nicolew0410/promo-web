@@ -1,0 +1,134 @@
+@font-face{
+  font-family:pot;
+  src: url("Potra.ttf")
+}
+@media screen and (max-width: 600px) {
+  .titleDeco.responsive{
+    font-size:32px;
+  }
+  .one.responsive{
+    font-size:25px;
+    border-width:13px;
+    width:210px;
+    height:25px;
+  }
+  .sizing.responsive{
+    width:70%;
+    height:70%;
+    border-width:15px;
+  }
+  .textDeco1.responsive{
+    font-size:16px;
+    padding:10px; 
+  }
+  .two.responsive{
+    font-size:25px;
+    border-width:13px;
+    width:210px;
+    height:25px;
+  }
+  .textDeco2.responsive{
+    font-size:16px;
+    padding:10px; 
+  }
+  .index.responsive{
+    background-color:#cfb4ce;
+  }
+}
+.index{
+  background-color:#d9adbd;
+}
+.titleDeco{
+  background-color:#cfc3d6;
+  animation: smoove 5s infinite;
+  border-style:double;
+  border-color:#a699ad;
+  border-width:15px;
+  border-radius:20px;
+  font-family:pot;
+  color:#6c5a75;
+  font-size:50px;
+  text-align:center;
+  padding:5px 5px;
+  word-spacing: 7px;
+}
+.one{
+  background-color:#abb3d6;
+  border-style:double;
+  border-color:#8c92ad;
+  border-width:15px;
+  border-radius:20px;
+  font-family:pot;
+  color:#565c75;
+  font-size:33px;
+  width:250px;
+  height:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  padding:5px 5px;
+  word-spacing: 7px;
+}
+.two{
+  background-color:#b4d0d9;
+  border-style:double;
+  border-color:#5e7a82;
+  border-width:15px;
+  border-radius:20px;
+  font-family:pot;
+  color:#5e7a82;
+  font-size:33px;
+  width:250px;
+  height:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  padding:5px 5px;
+  word-spacing: 7px;
+}
+.textDeco1{
+  background-color:#abb3d6;
+  border-style:double;
+  border-color:#8c92ad;
+  border-width:15px;
+  border-radius:20px;
+  font-family:copperplate;
+  color:#565c75;
+  padding:30px;
+  font-size:30px;
+}
+.textDeco2{
+  background-color:#b4d0d9;
+  border-style:double;
+  border-color:#5e7a82;
+  border-width:15px;
+  border-radius:20px;
+  font-family:copperplate;
+  padding:30px;
+  color:#5e7a82;
+  font-size:30px;
+}
+.centering{
+  text-align:center;
+}
+.sizing{
+  width:70%;
+  height:70%;
+  border-style:double;
+  border-color:#a17585;
+  border-width:30px;
+  border-radius:20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.darkerBack{
+  background-color:#aba8e8;
+}
+.darkestBack{
+  background-color:#9c98cc;
+}
